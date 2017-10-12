@@ -12,5 +12,4 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile += %w( jquery.sidr.dark.min.css )
-Rails.application.config.assets.precompile += %w( jquery.sidr.min.js )
+Rails.application.config.assets.precompile += %w( *.jpg *.jpeg *.png *.svg jquery.sidr.dark.min.css jquery.sidr.min.js)
