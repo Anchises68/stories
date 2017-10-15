@@ -2,7 +2,7 @@
     <ul> 
         <li><a href="home">Home</a></li> 
         <li><a href="about">About</a></li> 
-        <li><%= link_to 'contact', signups_path(@signup) %><a>Contact</a></li> 
+        <li><%= link_to 'new', signups_path(@signup) %><a>Contact</a></li> 
     </ul> 
     <img alt="Close" class="icon-close" src="./StoriesAbout_files/close-0c9147fa56a8cfd00e1f6b29e91458dc.svg" width="24px"> 
 </div>     
@@ -14,7 +14,7 @@
     <div class="container"> 
         <h2>No more sorting through photos</h2> 
         <p>Stories automatically finds your best photos and creates a new travelogue. This way you can capture and share your special moments in fresh new ways.</p> 
-        <p><a class="btn btn-primary" href="contact">Sign up</a></p> 
+        <p><%= link_to 'Contact', new_path, :class => "btn btn-primary" %></p> 
     </div> 
 </div> 
 <div class="footer"> 

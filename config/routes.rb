@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'pages#home'
+  root 'pages#index'
   get 'about' => 'pages#about'
-  get 'contact' => 'signups#contact'
+  get 'new' => 'signups#new'
   post 'signups' => 'signups#thanks'
 end

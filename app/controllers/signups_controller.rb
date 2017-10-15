@@ -1,5 +1,5 @@
 class SignupsController < ApplicationController
-    def contact
+    def new
         @signup = Signup.new
     end
     
@@ -8,7 +8,7 @@ class SignupsController < ApplicationController
         if @signup.save
             redirect_to '/thanks'
         else
-            render 'contact'
+            render 'new'
         end
     end
     
