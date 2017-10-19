@@ -1,0 +1,494 @@
+
+.dice-menu {
+    padding: 0;
+    display: block;
+    position: fixed;
+    top: 25%;
+    right: 0;
+}
+.dice-menu li {
+    display: block;
+    border-width: 0;
+    border-radius: 5px; 
+    padding: 15px; 
+    overflow: hidden;
+    background-color: #444;
+    color: #eee;
+    opacity: 0; cursor: pointer;
+}
+.dice-menu li:first-child {
+    opacity:.8;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* line 4, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+html, body {
+  margin: 0;
+}
+
+/* line 7, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 10, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+h1 {
+  font-size: 50px;
+}
+
+/* line 13, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+h2 {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+/* line 17, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.btn-default, .btn-primary {
+  border-radius: 0;
+  font-size: 16px;
+  padding: 12px 26px;
+}
+
+/* line 22, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.btn-primary {
+  background-color: #2E72BD;
+}
+
+/* line 25, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.home-main {
+  background: url(/assets/P1000750-f3333498e62b3e441ae6a589c8d258f6919084e48fc175000d83627fa2be8ffb.jpg) center;
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 29, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.home-main .content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+/* line 34, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.home-main h1 {
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 41, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.home-supporting, .home-about, .about-supporting {
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* line 45, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.home-supporting h2, .home-about h2, .about-supporting h2 {
+  color: #000;
+  margin: 30px 0;
+}
+
+/* line 49, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.home-supporting p, .about-supporting p {
+  font-size: 21px;
+  font-weight: 100;
+}
+
+/* line 53, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.about-supporting p {
+  margin-top: 30px;
+}
+
+/* line 56, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.home-secondary {
+  background: url(/assets/P1000946-1c7d1948928403d5640cbd285aa3136362cbf754461a7c8c3d40f36e56535b6a.jpg) bottom;
+  background-size: cover;
+  height: 500px;
+}
+
+/* line 61, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.about-main {
+  background: url(/assets/P1000946-1c7d1948928403d5640cbd285aa3136362cbf754461a7c8c3d40f36e56535b6a.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 66, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.about-main .content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+/* line 71, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.about-main h1 {
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 77, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.about-main p {
+  font-size: 21px;
+  font-weight: 100;
+}
+
+/* line 81, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.contact-main {
+  background: url(/assets/P1000944-08ec276bc2d6570dae0bc08de0c2957a698583cd8db55e882e923440e4b3a338.jpg) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 86, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.contact-main .content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+/* line 91, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.contact-main h1 {
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 97, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.footer {
+  background-color: #f9f9f9;
+  border-top: solid 1px #F5F5F5;
+  padding: 40px 0 30px 0;
+  text-align: center;
+}
+
+/* line 102, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.footer p {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* line 107, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.menu {
+  background-color: #000;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 240px;
+  left: -240px;
+  z-index: 1;
+}
+
+/* line 116, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 120, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.menu li a, .menu li a:visited {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 30px 40px;
+  text-decoration: none;
+}
+
+/* line 128, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.menu .icon-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+/* line 134, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.icon-menu {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  cursor: pointer;
+}
+
+/* line 140, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+form {
+  text-align: left;
+}
+
+/* line 143, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.form-control, .btn-default {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0;
+}
+
+/* line 147, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.form-control {
+  font-size: 18px;
+}
+
+/* line 150, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.form-group label {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* line 154, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/signups.scss */
+.form-group input {
+  padding: 20px 10px;
+  font-size: 20px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 20, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+html, body {
+  margin: 0;
+}
+
+/* line 23, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 26, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+h1 {
+  font-size: 50px;
+}
+
+/* line 29, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+h2 {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+/* line 33, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.btn-default, .btn-primary {
+  border-radius: 0;
+  font-size: 16px;
+  padding: 12px 26px;
+}
+
+/* line 38, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.btn-primary {
+  background-color: #2E72BD;
+}
+
+/* line 41, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.home-main {
+  background: url(/assets/P1000946-1c7d1948928403d5640cbd285aa3136362cbf754461a7c8c3d40f36e56535b6a.jpg) center;
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 45, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.home-main .content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+/* line 50, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.home-main h1 {
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 57, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.home-supporting, .home-about, .about-supporting {
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* line 61, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.home-supporting h2, .home-about h2, .about-supporting h2 {
+  color: #000;
+  margin: 30px 0;
+}
+
+/* line 65, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.home-supporting p, .about-supporting p {
+  font-size: 21px;
+  font-weight: 100;
+}
+
+/* line 69, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.about-supporting p {
+  margin-top: 30px;
+}
+
+/* line 72, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.home-secondary {
+  background: url(/assets/P1000946-1c7d1948928403d5640cbd285aa3136362cbf754461a7c8c3d40f36e56535b6a.jpg) bottom;
+  background-size: cover;
+  height: 500px;
+}
+
+/* line 77, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.about-main {
+  background: url(/assets/P1000946-1c7d1948928403d5640cbd285aa3136362cbf754461a7c8c3d40f36e56535b6a.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 82, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.about-main .content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+/* line 87, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.about-main h1 {
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 93, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.about-main p {
+  font-size: 21px;
+  font-weight: 100;
+}
+
+/* line 97, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.contact-main {
+  background: url(/assets/P1000944-08ec276bc2d6570dae0bc08de0c2957a698583cd8db55e882e923440e4b3a338.jpg) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 102, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.contact-main .content {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+/* line 107, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.contact-main h1 {
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* line 113, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.footer {
+  background-color: #f9f9f9;
+  border-top: solid 1px #F5F5F5;
+  padding: 40px 0 30px 0;
+  text-align: center;
+}
+
+/* line 118, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.footer p {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* line 123, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.menu {
+  background-color: #000;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 240px;
+  left: -240px;
+  z-index: 1;
+}
+
+/* line 132, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 136, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.menu li a, .menu li a:visited {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 30px 40px;
+  text-decoration: none;
+}
+
+/* line 144, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.menu .icon-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+/* line 150, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.icon-menu {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  cursor: pointer;
+}
+
+/* line 156, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+form {
+  text-align: left;
+}
+
+/* line 159, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.form-control, .btn-default {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0;
+}
+
+/* line 163, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.form-control {
+  font-size: 18px;
+}
+
+/* line 166, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.form-group label {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* line 170, /Users/AlexMireles/Documents/Documents_MonsterMac/RailsWorkspace/stories/app/assets/stylesheets/pages.scss */
+.form-group input {
+  padding: 20px 10px;
+  font-size: 20px;
+}
